@@ -1,42 +1,42 @@
-## Planned Meals
-> The Alpine lodge extra-large kitchen seats 44 people.  The kitchens are perfect for large group meals and all come equipped with appropriate appliances and utensils. There is an outdoor barbecue!  There is a fridge and individual kitchens in the homes.   So there is a place to store snacks, make sure you stock up for the little ones.
+# CHINESE NEW YEAR EVE DINNER
+> 除夕晚饭
 
-### Monday Dinner
+## Dietary Preferences
+*Please try to accomodate these dietary preferences with your dish*
+| Name | Dietary Preferences |
+| --- | --- |
+| Person1 | severely allergic to nuts |
+| Person2 | lactose intolerant |
+| Person3 | no dietary preferences |
+| Person4 | doesn't like shellfish |
+| Person5 | vegetarian |
+| Person6 | can't stand the smell of eggs |
+| Person7 | allergic to soy |
+| Person8 | doesn't like sweet things |
+| Person9 | can't handle spicy |
+| Person10 | allergic to sesame |
 
- 
-### Tuesday Breakfast (8-9:30am)
-> Grits and Sausage Links in the main hall
+## Potluck Food Items
+*Please bring the food in a fancy plate/bowl that will look good for pictures :)*
+| Person | Dish | Notes | Homemade/Store-bought | Time to prepare |
+| --- | --- | --- | --- | --- |
+| Person1 | Dumplings (饺子) | 300+ dumplings with multiple fillings (60 each: beef, pork, lamb, shrimp, chives) | Homemade | the entire previous day |
+| Person2 | Steamed fish (蒸鱼) | Will keep the head and tail, also there should be some leftover at the end of the meal for good luck to follow Chinese tradition | Homemade | 2 hours |
+| Person3 | Spring rolls (春卷) | appetizer | Store-bought | N/A |
+| Person3 | Tea (茶) | different flavors (ex: green tea, matcha, 菊花茶) | Store-bought | N/A |
+| Person4 | Sweet rice balls (汤圆) | buy multiple fillings (ex: sesame, peanuts, red bean paste) | Store-bought | N/A |
+| Person5 | Noodles (面条) | soup noodles | Homemade | 50+ minutes |
+| Person6 | Broccoli and Beef (芥兰牛肉) | traditional stir-fry | Homemade | 25 minutes |
+| Person7 | New Year Cake (年糕) | dessert, includes red beans | Homemade | 4 hours |
+| Person8 | Scallion Pancakes (葱油饼) | crispy and delicious | Homemade | 1 hour 30 minutes |
+| Person9 | Wontons (馄钝汤) | side of chili oil sauce for those who prefer spicy, 150+ wontons | Homemade | the entire previous day |
+| Person10 | Fruits (水果) | an assorment of fruits (ex: oranges) | Store-bought | N/A |
+| Person10 | Water (水) | bottled water | Store-bought | N/A |
 
-### Tuesday Lunch
-> Make lunch at dinning room.  Pack and Go.  Eat outside or at your housing, pick up trash and leave no mess in dinning hall or grounds.
-
-### Tuesday Dinner
-
-
-### Wednesday Breakfast (8-9:30am)
-
-### Wednesday Lunch
-> Make lunch at dinning room.  Pack and Go.  Leave no mess please.  There is option to purchase food at the caverns, there is a picnic are at the site.
-
-
-### Wednesday Dinner
-
-
-### Thursday Breakfast (8-9:30am)
-
-### Thursday Lunch
-> Make lunch at dinning room.  Pack and Go.  Leave no mess please.  There will likely be some down time and extra snacks will be wanted while boating.
-
-### Thursday Dinner
-
-
-### Friday Breakfast (8-9:30am)
-
-### Friday Lunch
-> Make lunch at dinning room.  Pack and Go.  There are lots of places to explore and eat in the community of Shasta Lakes and Redding.
-
-### Friday Dinner
-
-
-### Saturday Breakfast (8-9:30am)
-
+## Potluck Other Items
+*Please bring enough for all 10 people and extras just in case*
+| Person | Item |
+| --- | --- |
+| Person3 | Plastic utensils |
+| Person4 | Paper towels/Napkins |
+| Person10 | Paper plates |
