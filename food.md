@@ -3,6 +3,7 @@
 
 ## Dietary Preferences
 *Please try to accomodate these dietary preferences with your dish*
+
 | Name | Dietary Preferences |
 | --- | --- |
 | Zhang Tianmin | severely allergic to nuts |
@@ -18,6 +19,7 @@
 
 ## Potluck Food Items
 *Please bring the food in a fancy plate/bowl that will look good for pictures :)*
+
 | Person | Dish | Notes | Homemade/Store-bought | Time to prepare |
 | --- | --- | --- | --- | --- |
 | Zhang Tianmin | Dumplings (饺子) | 300+ dumplings with multiple fillings (60 each: beef, pork, lamb, shrimp, chives) | Homemade | the entire previous day |
@@ -35,6 +37,7 @@
 
 ## Potluck Other Items
 *Please bring enough for all 10 people and extras just in case*
+
 | Person | Item |
 | --- | --- |
 | Wu Yuhan | Plastic utensils |
