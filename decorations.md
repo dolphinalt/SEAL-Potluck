@@ -1,7 +1,7 @@
 ## Decorations for New Year
 > Please help us purchase some decorations for our feast, it really helps to brighten up the mood!
 
-<table id="decorations">
+<table id="decorations" onload="calculatePrice()">
     <tr>
         <th>Decoration</th>
         <th>Buyer</th>
@@ -44,11 +44,12 @@
         <td>$62.99</td>
         <td>yes</td>
     </tr>
-    </tr>
+    <tr>
         <td><strong>Total</strong></td>
         <td> - </td>
         <td id="totalPrice"></td>
         <td></td>
+    </tr>
 </table>
 
 <button onclick="calculatePrice()">Calculate Total</button>
@@ -59,13 +60,14 @@
         let decorations = window.document.getElementById("decorations"); 
         let num_rows = decorations.rows.length;
         let total = 0;
-        for (let i = 0; i<num_rows-1; i++) {
+        for (let i = 1; i<num_rows-1; i++) {
             let price = decorations.rows[i].cells[2].innerHTML.slice(1);
-            let priceInt = parseInt(price);
+            let priceInt = parseFloat(price);
             total+=priceInt;
         }
+        total = parseFloat(total).toFixed(2)
         let totalPrice = window.document.getElementById("totalPrice");
-        totalPrice.innerHTML = calculatePrice();
+        totalPrice.innerHTML = "$".concat(String(total));
     }   
     
 </script>
