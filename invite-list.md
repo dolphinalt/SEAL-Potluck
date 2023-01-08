@@ -1,8 +1,3 @@
-## Housing Overview
-> We will meet at Zhang Tianming's house on January 22, 2023. If you have any requests or concerns please reach him at **858-123-5692** or **[zhang.tianming@gmail.com](mailto:zhang.tianming@gmail.com)**  
-(DON'T ACTUALLY SPAM THIS ADDRESS)
-
-
 ## Invite List
 
 | Name | Age | Phone number | Coming?
