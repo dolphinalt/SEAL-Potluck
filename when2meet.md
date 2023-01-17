@@ -8,7 +8,11 @@
 
 <script>
   var UserData = [{"globalMap":[[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]},{"name":"Example","indMap":[[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]}]
-  map = [[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]
+  var map = [[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]
+  var GlobalMap = [[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]
+  function removeEmpty(obj) {
+    return Object.fromEntries(Object.entries(obj).filter(([_, v]) => v != null));
+  }
   function newUser() {
     console.log(UserData)
     var uid = document.getElementById("usernameinput").value;
@@ -17,16 +21,35 @@
       var existingUser = UserData[index];
       console.log(existingUser.name)
       if (existingUser.name == uid){
-        console.log("User already exists!")
+        alert("User " + uid + " already exists!")
         return 1;
       }
     }
     console.log("new user")
+    alert("User " + uid + " created!")
     user = {name:uid,"indMap":[[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]}
     UserData.push(user)
     return 0;
   }
-  GlobalMap = [[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]
+  function deleteUser() {
+    console.log(UserData)
+    var uid = document.getElementById("usernameinput").value;
+    console.log(uid)
+    for (var index = 1; index < UserData.length; ++index) {
+      var existingUser = UserData[index];
+      console.log(existingUser.name)
+      if (existingUser.name == uid){
+        delete UserData[index]
+        alert("User " + uid + " has been removed from database!")
+        UserData = removeEmpty(UserData)
+        UserData = Object.entries(UserData)
+        return 0;
+      }
+    }
+    alert("User " + uid + " has already been removed from the database!")
+    console.log("User does not exist")
+    return 0;
+  }
   function cellSelect(row, column) {
     rowIdx = row-1
     columnIdx = column-1
@@ -41,6 +64,7 @@
       GlobalMap[rowIdx][columnIdx] += 1
       cell.style.background = "rgba(0, 0, 0, 0)"
     }
+    console.log(UserData)
   }
 </script>
 
@@ -48,6 +72,7 @@ What is your name?
 <form id="form" onsubmit="return false;">
   <input type = "text" id = "usernameinput">
   <input type = "submit" onclick = "newUser()">
+  <button onclick = "deleteUser()">Cancel</button>
 </form>
 
 <table>
